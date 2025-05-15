@@ -1,0 +1,29 @@
+.mynav{padding-top: 16px;}
+/* navbar.css */
+
+/* Adjusts navbar button and spacing on small screens */
+@media (max-width: 576px) {
+  .navbar-toggler {
+    margin-right: 8px;
+  }
+
+  .offcanvas-body .form-control {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .offcanvas-body button {
+    width: 100%;
+  }
+}
+
+/* Prevent layout shift on zoom */
+.navbar {
+  min-height: 60px;
+}
+
+/* Optional: make nav-link bold on hover */
+.nav-link:hover {
+  font-weight: 500;
+  color: #0056b3 !important;
+}

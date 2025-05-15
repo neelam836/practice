@@ -1,0 +1,35 @@
+/* /* *{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+        border-bottom: 1px solid #ccf;
+}
+#header>.col-1{
+    border-right:1px solid #ccf ;
+    text-align: center;
+    /* cursor: pointer;
+    transition: 1s color; */
+
+/* #header>.col-1:hover {
+    color: #006;
+} */
+
+
+#header {
+    border-bottom: 1px solid #aaa;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+#header>.col-1 {
+    text-align: center;
+    cursor: pointer;
+    border-right: 1px solid #ddf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
